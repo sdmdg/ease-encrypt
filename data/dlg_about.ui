@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>490</width>
+    <height>260</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>490</width>
+    <height>260</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>490</width>
+    <height>260</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+background-color: rgb(30, 30, 30)
+
+}
+QLabel{
+color: rgb(200, 200, 200);
+background-color:rgba(0, 0, 0, 0)
+}
+
+QPushButton {
+background-color:rgb(40, 40, 40);
+color: rgb(200, 200, 200);
+border: 2px solid rgb(80, 80, 80);
+border-radius: 10px;
+padding: 1px;
+}
+QPushButton:hover {
+background-color:rgb(20, 115, 230);
+	color: rgb(200, 200, 200);
+border: 1px solid rgb(20, 115, 230);
+}
+QPushButton:pressed {
+background-color:rgb(18, 100, 200);
+color: rgb(200, 200, 200);
+border: 1px solid rgb(18, 100, 200);
+}
+
+QLineEdit{
+background-color:rgb(30, 30, 30);
+color: rgb(200, 200, 200);
+border: 2px solid rgb(20, 115, 230);
+border-radius: 10px;
+padding: 1px;
+}
+
+QProgressBar {
+background-color:rgb(30, 30, 30);
+border: 2px solid rgb(80, 80, 80);
+border-radius: 6px;
+color:rgb(200, 200, 200);
+text-align: center;
+}
+QProgressBar::chunk {
+background-color:rgb(20, 115, 230);
+border: 2px solid rgb(20, 115, 230);
+border-radius: 1px;
+}</string>
+  </property>
+  <widget class="QLabel" name="dummy_1">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>10</y>
+     <width>251</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>About</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_ok">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>230</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>OK</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="icon">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>30</y>
+     <width>200</width>
+     <height>200</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="dummy_2">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>100</y>
+     <width>251</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This project developed as an open source project.&lt;br/&gt;See &lt;a href=&quot;https://github.com/sdmdg/ease-encrypt&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://github.com/sdmdg/ease-encrypt&lt;/span&gt;&lt;/a&gt; for&lt;br/&gt;more information.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_name_and_version">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>30</y>
+     <width>251</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Name
+Version</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="dummy_3">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>60</y>
+     <width>251</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Developed by:  Malaka D.Gunawardana.</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="dummy_4">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>160</y>
+     <width>251</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Using the following libraries:
+	- PyQt5
+	- cryptography</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="dummy_5">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>231</y>
+     <width>41</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>© 2023</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="dummy_6">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>140</y>
+     <width>251</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>This software is distributed under the MIT License.</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

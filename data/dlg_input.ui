@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>300</width>
+    <height>190</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>300</width>
+    <height>190</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>300</width>
+    <height>190</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+background-color: rgb(30, 30, 30)
+
+}
+QLabel{
+color: rgb(200, 200, 200);
+background-color:rgba(0, 0, 0, 0)
+}
+
+QPushButton {
+background-color:rgb(40, 40, 40);
+color: rgb(200, 200, 200);
+border: 2px solid rgb(80, 80, 80);
+border-radius: 10px;
+padding: 1px;
+}
+QPushButton:hover {
+background-color:rgb(20, 115, 230);
+	color: rgb(200, 200, 200);
+border: 1px solid rgb(20, 115, 230);
+}
+QPushButton:pressed {
+background-color:rgb(18, 100, 200);
+color: rgb(200, 200, 200);
+border: 1px solid rgb(18, 100, 200);
+}
+QPushButton:disabled {
+background-color:rgb(20, 20, 20);
+color: rgb(100, 100, 100);
+border: 2px solid rgb(50, 50, 50);
+border-radius: 10px;
+}
+
+QLineEdit{
+background-color:rgb(30, 30, 30);
+color: rgb(200, 200, 200);
+border: 2px solid rgb(20, 115, 230);
+border-radius: 10px;
+padding: 1px;
+}
+
+QProgressBar {
+background-color:rgb(30, 30, 30);
+border: 2px solid rgb(80, 80, 80);
+border-radius: 6px;
+color:rgb(200, 200, 200);
+text-align: center;
+}
+QProgressBar::chunk {
+background-color:rgb(20, 115, 230);
+border: 2px solid rgb(20, 115, 230);
+border-radius: 1px;
+}</string>
+  </property>
+  <widget class="QLineEdit" name="input">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>50</y>
+     <width>261</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Normal</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="text">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>25</y>
+     <width>261</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_cancel">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>150</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>Cancel</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_ok">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>150</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>OK</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="input_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>110</y>
+     <width>261</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Normal</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="text_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>85</y>
+     <width>261</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>Confirm password:</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
