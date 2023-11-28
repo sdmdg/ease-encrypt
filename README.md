@@ -3,7 +3,7 @@
 
 EaseEncrypt is a straightforward user-friendly application designed to protect your digital assets using AES encryption.
 
-![logo](https://github.com/sdmdg/ease-encrypt/assets/151946448/292cbc1c-1d48-4845-bcb3-efde22dc4613)
+![logo](https://github.com/sdmdg/ease-encrypt/assets/151946448/3d993831-b59e-45c1-a817-5f9ca5bf1df2)
 
 ![image](https://github.com/sdmdg/ease-encrypt/assets/151946448/0320fafe-300c-4173-8841-40c0b9ac5274)
 
