@@ -43,4 +43,4 @@ EaseEncrypt is a straightforward user-friendly application designed to protect y
 
 ## Important Note:
 
--	**The Authors will not be responsible for any kind of loss of data so it is essential to have a Backup of Original Data you give as Input to Encrypt/Decrypt in the Software. Under no circumstances shall we be liable or responsible to you or any other person for any damages, loss of any of your useful data by using this Software. Read the [LICENSE](https://github.com/sdmdg/vaultapp/blob/master/LICENSE) for more information.**
+-	**The Authors will not be responsible for any kind of loss of data so it is essential to have a Backup of Original Data you give as Input to Encrypt/Decrypt in the Software. Under no circumstances shall we be liable or responsible to you or any other person for any damages, loss of any of your useful data by using this Software. Read the [LICENSE](https://github.com/sdmdg/ease-encrypt/blob/main/LICENSE) for more information.**
