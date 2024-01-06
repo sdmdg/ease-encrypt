@@ -62,6 +62,13 @@ border-radius: 10px;
 QLineEdit{
 background-color:rgb(30, 30, 30);
 color: rgb(200, 200, 200);
+border: 2px solid rgb(80, 80, 80);
+border-radius: 10px;
+padding: 1px;
+}
+QLineEdit:focus {
+background-color:rgb(30, 30, 30);
+color: rgb(200, 200, 200);
 border: 2px solid rgb(20, 115, 230);
 border-radius: 10px;
 padding: 1px;

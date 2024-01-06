@@ -1,11 +1,11 @@
 """
 EaseEncrypt
-Version 0.1.0
+Version 0.1.3
 
 Author: Malaka D.Gunawardana.
 
 Release Notes:
-- Version 0.1.0 (Initial Release) (2023/11/28)
+- Version 0.1.3 (2023/12/16)
 
 For Updates and Contributions:
     Visit the GitHub repository:
@@ -313,7 +313,7 @@ if __name__ == '__main__':
     app = QApplication(sys.argv)
     working_directory = os.getcwd()
     # INFO
-    App_version = "0.1.0"
+    App_version = "0.1.3"
     main_window = EaseEncrypt()
     
     sys.exit(app.exec_())
